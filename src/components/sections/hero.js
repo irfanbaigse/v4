@@ -67,9 +67,9 @@ const Hero = () => {
       <p>
         I’m a software engineer specializing in building (and occasionally designing) exceptional
         digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
+        block my time {' '}
         <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+          Anywhere
         </a>
         .
       </p>
@@ -78,10 +78,10 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://calendly.com/iam_irfanbaig/30min"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Block my time!
     </a>
   );
 
