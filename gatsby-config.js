@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Irfan Baig',
+        short_name: 'Irfan Baig',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
@@ -149,11 +149,23 @@ module.exports = {
         ],
       },
     },
-    {
+    /*{
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-45666519-2',
       },
-    },
+    },*/
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-11SJVW8XB4", // Google Analytics / GA
+        ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true
+        },
+      },
+    }
   ],
 };
