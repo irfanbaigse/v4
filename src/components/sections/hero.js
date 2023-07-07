@@ -65,13 +65,17 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        block my time {' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
+        I am a seasoned Engineering Manager with extensive experience in API and web development.
+        Throughout my career, I have designed innovative solutions to solve complex business
+        problems and delivered them through the development of microservices. With over 10 years of
+        expertise in travel applications and a wide range of technological skills, I bring a unique
+        perspective to every project. I am excited to showcase my work and demonstrate how my
+        contributions can make a significant impact. Explore my portfolio and discover the
+        transformative projects I have been a part of.{' '}
+        {/* <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Anywhere
-        </a>
-        .
+        </a> 
+        .*/}
       </p>
     </>
   );
